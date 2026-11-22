@@ -1,0 +1,16 @@
+# Keep source extracts, assessed submissions and personal details out of commits.
+**/data/private/**
+*.RData
+.Rhistory
+.Rproj.user/
+**/results/generated/
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+*.mp4
+.DS_Store
+__pycache__/
+
+assessment-3-portfolio-investment-analysis/data/private/*
+!assessment-3-portfolio-investment-analysis/data/private/.gitkeep
