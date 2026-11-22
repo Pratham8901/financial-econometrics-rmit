@@ -1,0 +1,9 @@
+symbol,model,AIC,BIC,LB_residual_p,source
+TSLA,"ARMA(1,1)",7194.11,7214.65,0.122,Submitted Assessment2_Report.docx; not independently refitted in R
+TSLA,"ARMA(1,2)",7192.8,7218.48,0.223,Submitted Assessment2_Report.docx; not independently refitted in R
+TSLA,"ARMA(2,1)",7192.77,7218.45,0.226,Submitted Assessment2_Report.docx; not independently refitted in R
+TSLA,"ARMA(2,3)",7189.75,7225.7,0.257,Submitted Assessment2_Report.docx; not independently refitted in R
+KO,"ARMA(0,1)",4265.37,4280.78,0.0001,Submitted Assessment2_Report.docx; not independently refitted in R
+KO,"ARMA(5,4)",4206.33,4262.83,0.061,Submitted Assessment2_Report.docx; not independently refitted in R
+KO,"ARMA(4,7)",4207.5,4274.27,0.079,Submitted Assessment2_Report.docx; not independently refitted in R
+KO,"ARMA(6,2)",4220.38,4271.75,0.081,Submitted Assessment2_Report.docx; not independently refitted in R
