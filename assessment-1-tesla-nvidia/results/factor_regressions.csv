@@ -1,0 +1,5 @@
+company,model,observations,alpha_daily_pct,market_beta,smb_loading,hml_loading,alpha_pvalue,market_pvalue,smb_pvalue,hml_pvalue,r_squared,adj_r_squared,source
+Tesla (TSLA),CAPM,1257,0.114357,1.646574,,,0.25542768,5.076012897911011e-95,,,0.288906,0.288339,independently recomputed from provided price and factor CSVs
+Tesla (TSLA),FF3,1257,0.123002,1.508437,0.743997,-0.760122,0.20227729,2.5957337586107082e-83,1e-08,5.524939127376136e-19,0.346834,0.34527,independently recomputed from provided price and factor CSVs
+NVIDIA (NVDA),CAPM,1257,0.146317,1.739924,,,0.02884851,1.726283269556751e-194,,,0.506139,0.505745,independently recomputed from provided price and factor CSVs
+NVIDIA (NVDA),FF3,1257,0.145263,1.713186,-0.14473,-0.980385,0.01350602,5.791062842959532e-218,0.06236544,6.241629029175638e-72,0.61982,0.61891,independently recomputed from provided price and factor CSVs
