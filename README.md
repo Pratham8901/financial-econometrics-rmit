@@ -1,48 +1,19 @@
-<div align="center">
+# Financial econometrics | Equity returns and portfolio risk
 
-![Financial Econometrics banner](assets/finance-econometrics-banner.svg)
+**Pratham Kurele · RMIT University · Master of Finance · ECON1195**
 
-# Financial Econometrics — RMIT University
-**Master of Finance · ECON1195 · Individual quantitative finance projects**
+Three individual projects use US equity prices to examine different decisions. The portfolio study fixes the allocation at the end of 2024 and evaluates it on the following year's prices.
 
-</div>
-
-An employer-oriented portfolio of financial-econometric studies: from returns and market-efficiency diagnostics to quantitative modelling and investment decisions. Projects focus on the **financial question, data limitations, methodological choices and independently supportable results**.
-
-## Quantitative finance case studies
-
-| Assessment | Research question | Techniques and findings |
+| Study | Finding | Inspect the evidence |
 |---|---|---|
-| **[01 · Tesla vs NVIDIA — Market Efficiency and Factor Risk](assessment-1-tesla-nvidia/README.md)** | Can equity-return dependence and systematic factor exposures be detected? | Descriptive statistics, Ljung–Box, variance-ratio tests, CAPM and Fama–French FF3. Corrected FF3 R²: **34.7% TSLA** and **62.0% NVDA**. |
-| **[02 · Tesla vs Coca-Cola — ARMA/GARCH Modelling](assessment-2-tesla-coca-cola/README.md)** | How predictable are daily returns and how does volatility react to shocks? | ARMA specification, ACF/PACF, ARCH-LM, GARCH and GJR-GARCH. Submitted preferred models: **TSLA ARMA(1,1)/GARCH(1,1)** and **KO ARMA(6,2)/GJR-GARCH(1,1)**. |
-| **[03 · Tesla & Coca-Cola — Investment Committee Portfolio](assessment-3-portfolio-investment-analysis/README.md)** | How should an A$1.5m two-stock mandate be allocated before 2025? | Long-only minimum variance, GARCH/VaR (report-based), VAR/Granger (report-based), **2025 out-of-sample price-only evaluation**. Independently verified weights: **4.4% TSLA / 95.6% KO**. |
+| **[Tesla and Coca-Cola · Portfolio allocation](assessment-3-portfolio-investment-analysis/README.md)** | The minimum-variance mix held 4.4% Tesla and 95.6% Coca-Cola. In 2025 its realised annualised volatility was 16.87%, compared with 27.07% for a 50/50 buy-and-hold portfolio. | [Verified results](assessment-3-portfolio-investment-analysis/results/verified_portfolio_summary.json) · [Python calculation](assessment-3-portfolio-investment-analysis/scripts/verify_portfolio.py) |
+| **[Tesla and NVIDIA · Equity factor exposure](assessment-1-tesla-nvidia/README.md)** | A unit-consistent Fama–French three-factor regression explained 34.7% of Tesla's daily return variation and 62.0% of NVIDIA's. | [Factor estimates](assessment-1-tesla-nvidia/results/factor_regressions.csv) · [Return-unit reconciliation](assessment-1-tesla-nvidia/docs/model-audit.md) |
+| **[Tesla and Coca-Cola · Return and volatility models](assessment-2-tesla-coca-cola/README.md)** | Coca-Cola's ARMA(5,4) had the lowest reported AIC and BIC. The report selected the simpler ARMA(6,2). The case shows how model selection affects the interpretation of volatility forecasts. | [Model comparison](assessment-2-tesla-coca-cola/results/mean_model_comparison_reported.csv) · [Diagnostics and model choices](assessment-2-tesla-coca-cola/docs/validation-and-audit.md) |
 
-### Assessment 1 · Equity factor analysis
+## Reading the performance figures
 
-![CAPM and Fama–French R²](assessment-1-tesla-nvidia/figures/model-fit.svg)
+The 2025 evaluation uses US share prices and buy-and-hold weights. It excludes dividends, currency conversion, fees and taxes. The A$1.5m figure in the mandate is an illustrative notional. The return series measures price performance in the stocks' trading currency. Conditional value-at-risk and some time-series specifications differ across report versions and are attributed individually. [Portfolio model audit](assessment-3-portfolio-investment-analysis/docs/model-audit-and-limitations.md)
 
-[View the investment-factor case study](assessment-1-tesla-nvidia/README.md) · [Data audit](assessment-1-tesla-nvidia/docs/model-audit.md)
+Run the aggregate and synthetic checks from the repository root with `python -m unittest discover -s tests -v`. Each case documents the private inputs needed for a full historical rerun.
 
-### Assessment 2 · Return and volatility models
-
-![Historical risk comparison](assessment-2-tesla-coca-cola/figures/volatility-comparison.svg)
-
-[View the ARMA/GARCH case study](assessment-2-tesla-coca-cola/README.md) · [Model-selection audit](assessment-2-tesla-coca-cola/docs/validation-and-audit.md)
-
-### Assessment 3 · Investment portfolio and performance evaluation
-
-![Out-of-sample portfolio value](assessment-3-portfolio-investment-analysis/figures/portfolio-growth-2025.svg)
-
-[View the investment committee case study](assessment-3-portfolio-investment-analysis/README.md) · [Model and report-variant audit](assessment-3-portfolio-investment-analysis/docs/model-audit-and-limitations.md)
-
-> **Important:** Assessment 1 used Tesla/NVIDIA, while Assessments 2 and 3 used Tesla/Coca-Cola despite the briefs requesting the same companies. The Assessment 3 source versions also disagree on conditional VaR and some ARIMA/VAR specifications. These discrepancies are documented, not hidden. The final original assessment restricted AI use to R-code debugging; this is a separately identified **post-submission AI-assisted portfolio reconstruction**, not the work submitted for marking.
-
-## Structure
-
-Each case study has its own executive findings, reproducibility guide, source-code reconstruction, figures, aggregate result tables, model limitations and rights notice. The original student submissions and third-party raw exports are **not distributed** in this GitHub-facing archive.
-
-## Responsible publication
-
-The original university submission and proprietary source data remain excluded. Published artefacts use derived aggregate results and independently drawn charts. This is a **portfolio-format, AI-assisted reconstruction** based on an individual RMIT assessment, not an RMIT-endorsed research product or live investment recommendation. Raw data remain local and their original licences apply.
-
-[GitHub profile](https://github.com/Pratham8901) · [Corporate Financial Management portfolio](https://github.com/Pratham8901/corporate-financial-management-project-valuation)
+The first project used NVIDIA as the second stock. The next two used Coca-Cola, a departure from the original course brief. The original work was individual coursework. These portfolio pages and companion code were prepared after submission with AI assistance. [Attribution and data rights](NOTICE.md)
