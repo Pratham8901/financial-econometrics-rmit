@@ -1,3 +1,0 @@
-company,test,stat_homoskedastic,stat_robust,critical_5pct,conclusion,verification
-Tesla (TSLA),Chow-Denning,1.62,1.33,2.38,not rejected,transcribed from student report; not independently re-executed in native R
-NVIDIA (NVDA),Chow-Denning,3.28,2.51,2.38,rejected at 5%,transcribed from student report; not independently re-executed in native R

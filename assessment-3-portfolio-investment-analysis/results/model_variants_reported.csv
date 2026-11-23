@@ -1,9 +1,0 @@
-source,metric,recommended,equal_weight,verification
-Pratham_Kurele_Report.docx,95pct_conditional_VaR_AUD,20533,53001,Report only - joint native R refit not executed
-Assessment3_Report(1).docx,95pct_conditional_VaR_AUD,21050,53414,Report only - joint native R refit not executed
-Pratham_Presentation(1).pptx,95pct_conditional_VaR_AUD,21100,53400,Rounded in presentation - joint native R refit not executed
-Pratham_Kurele_Report.docx,Coca_Cola_ARIMA,5_0_4,,Model specification from main report
-Assessment3_Report(1).docx,Coca_Cola_ARIMA,6_0_2,,Alternative report retained earlier model
-Pratham_Presentation(1).pptx,Coca_Cola_ARIMA,5_0_4,,Slide labels differ from some speaker notes
-Pratham_Kurele_Report.docx,VAR_hq_sc_lag,1,,Reported original R VARselect output
-Pratham_Presentation(1).pptx,VAR_hq_sc_lag,0,,Presentation says 0; requires reconciliation

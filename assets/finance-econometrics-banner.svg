@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="312" viewBox="0 0 1280 312" role="img" aria-label="Financial Econometrics, Tesla and NVIDIA market efficiency and factor analysis">
-<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101d35"/><stop offset=".58" stop-color="#173b63"/><stop offset="1" stop-color="#07595d"/></linearGradient></defs>
-<rect width="1280" height="312" rx="18" fill="url(#bg)"/>
-<g opacity=".12" stroke="#a2dad2"><path d="M790 70H1220M790 115H1220M790 160H1220M790 205H1220M790 250H1220"/></g><path d="M800 225L865 212L913 173L982 186L1042 120L1098 135L1162 83L1225 97" stroke="#64dec3" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M802 242L865 254L920 215L980 229L1034 205L1098 169L1166 190L1225 161" stroke="#80a0ff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
-<text x="70" y="69" fill="#9be6da" letter-spacing="3" font-family="Arial,sans-serif" font-size="18" font-weight="700">RMIT UNIVERSITY · MASTER OF FINANCE</text>
-<text x="70" y="135" fill="white" font-family="Arial,sans-serif" font-size="48" font-weight="700">FINANCIAL</text><text x="70" y="194" fill="white" font-family="Arial,sans-serif" font-size="48" font-weight="700">ECONOMETRICS</text>
-<text x="70" y="251" fill="#d9f1ee" font-family="Arial,sans-serif" font-size="20">Return diagnostics · Market efficiency · Factor models</text>
-</svg>

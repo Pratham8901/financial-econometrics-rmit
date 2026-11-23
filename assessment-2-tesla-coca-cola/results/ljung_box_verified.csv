@@ -1,5 +1,0 @@
-symbol,lag,Q_stat,p_value,provenance
-TSLA,1,0.06687991,0.79593501,Independently verified from uploaded 2020-2024 price CSVs in Python (statsmodels)
-TSLA,9,12.84769259,0.16961999,Independently verified from uploaded 2020-2024 price CSVs in Python (statsmodels)
-KO,1,0.98311796,0.32143024,Independently verified from uploaded 2020-2024 price CSVs in Python (statsmodels)
-KO,2,10.80999439,0.00449407,Independently verified from uploaded 2020-2024 price CSVs in Python (statsmodels)

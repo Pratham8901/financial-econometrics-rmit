@@ -1,5 +1,0 @@
-company,test,lag,statistic,p_value,evaluation
-Tesla (TSLA),Ljung-Box,1,0.06688,0.79593501,not rejected at 5%
-Tesla (TSLA),Ljung-Box,9,12.847693,0.16961999,not rejected at 5%
-NVIDIA (NVDA),Ljung-Box,1,10.700192,0.00107124,reject at 5%
-NVIDIA (NVDA),Ljung-Box,7,28.367071,0.00018863,reject at 5%
